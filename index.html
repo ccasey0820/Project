@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Reminders</title>
+
+</head>
+
+<body>
+
+<header>
+	<h1>Reminders</h1>
+	<p>Keep track of what needs to be done.</p>
+</header>
+
+<nav>
+	<h2>Lists</h2>
+	<ul>
+		<li><a href="today">Today</a></li>
+		<li><a href="school">School</a></li>
+		<li><a href="personal">Personal</a></li>
+		<li><a href="shopping">Shopping</a></li>
+	</ul>
+</nav>
+
+<main>
+
+<section id="today">
+	<h2>Today</h2>
+	<ul>
+		<li><input type="radio" name="today" value="Submit assignment">Submit assignment</li>
+		<li><input type="radio" name="today" value="Email professor">Email professor</li>
+		<li><input type="radio" name="today" value="Go to the gym">Go to the gym</li>
+	</ul>
+</section>
+
+<section id="school">
+	<h2>School</h2>
+	<ul>
+		<li><input type="radio" name="school" value="Read sociology chapter">Read sociology chapter</li>
+		<li><input type="radio" name="school" value="Study for media law quiz">Study for media law quiz</li>
+		<li><input type="radio" name="school" value="Work on design project">Work on design project</li>
+	</ul>
+</section>
+
+<section id="personal">
+	<h2>Personal</h2>
+	<ul>
+		<li><input type="radio" name="personal" value="Call family">Call family</li>
+		<li><input type="radio" name="personal" value="Clean room">Clean room</li>
+		<li><input type="radio" name="personal" value="Plan meals">Plan meals</li>
+	</ul>
+</section>
+
+<section id="shopping">
+	<h2>Shopping</h2>
+	<ul>
+		<li><input type="radio" name="shopping" value="Milk">Milk</li>
+		<li><input type="radio" name="shopping" value="Bread">Bread</li>
+		<li><input type="radio" name="shopping" value="Protein bars">Protein bars</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Add a Reminder</h2>
+	<p>Enter a task and choose a list.</p>
+
+	<form>
+		<p>Task description:<br>
+		<input type="text" name="task"></p>
+
+
+		<p>Select a list:<br>
+		<select name="list">
+
+<option value="today">Today</option>
+  <option value="School">School</option>
+    <option value="Personal">Personal</option>
+      <option value="Shopping">Shopping</option>
+       
+
+		</select></p>
+
+		<p><input type="submit" value="Add Reminder"></p>
+	</form>
+</section>
+
+</main>
+
+
+</body>
+</html>
